@@ -7,6 +7,7 @@ This line used to load image from certain ```string URL``` and set to ```GameObj
 ```c#
 string URL = "http://unity-chan.com/images/imgKohaku.jpg";
 GameObject targetGameObject;
+
 if (LoadImage.IsReady)
    LoadImage.loadSpriteToObject(URL, targetGameObject);
 ```
